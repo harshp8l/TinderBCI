@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
       action = raw_input("(l)ike or (d)islike?: ")
 
-      if(action == "l"):
+      if(action == "like"):
         buttons[1].click()
       else:
         buttons[0].click()
