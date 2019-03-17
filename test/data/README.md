@@ -1,7 +1,7 @@
-#Test Data
+# Test Data
 
 ### Files beginning with output-*:
-** (22) Columns: **
+**(22) Columns:**
 >
 1. Average rawValue
 2. Average attention
@@ -25,7 +25,7 @@
 20. Standard Deviation highBeta
 21. Standard Deviation lowGamma
 22. Standard Deviation midGamma
-
+23. Swipe Choice (Right vs. Left)
 ----
 ### Procedure
 * Continually recorded data of the different metrics provided by the NeuroSky headset. When it was time to make a decision (i.e. right swipe vs. left swipe) the last 3 seconds of data was used to calculate the average and standard deviation of these different metrics and was paired with the appropriate decision (left vs. right)
